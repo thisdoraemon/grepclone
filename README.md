@@ -110,8 +110,8 @@ type Results struct {
 ```
 
 ### Methods
-- NewResult(line string, lineNum int, path string) Result: Creates a new result.
-- FindInFile(path string, find string) *Results: Searches for the specified text in a file and returns matching results.
+- `NewResult(line string, lineNum int, path string) Result`: Creates a new result.
+- `FindInFile(path string, find string) *Results`: Searches for the specified text in a file and returns matching results.
   
 ### Main Package
 The main package (main) contains the application's entry point, which manages the concurrent search for text in files within a specified directory.

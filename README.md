@@ -72,7 +72,7 @@ The main package (main) is responsible for the application's entry point, managi
 Represents a file path in the worklist.
 ```go
 type Entry struct {
-  Path string
+ Path string
 }
 ```
 
@@ -80,7 +80,7 @@ type Entry struct {
 Manages a list of files to be processed concurrently.
 ```go
 type Worklist struct {
-	jobs chan Entry
+ jobs chan Entry
 }
 ```
 ### Methods
@@ -95,9 +95,9 @@ type Worklist struct {
 Represents a matching line in a file.
 ```go
 type Result struct {
-	Line    string
-	LineNum int
-	Path    string
+ Line    string
+ LineNum int
+ Path    string
 }
 ```
 
@@ -105,7 +105,7 @@ type Result struct {
 Stores multiple matching results.
 ```go
 type Results struct {
-	Inner []Result
+ Inner []Result
 }
 ```
 

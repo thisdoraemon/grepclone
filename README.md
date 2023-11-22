@@ -17,7 +17,7 @@ To use Grepclone, you need to have Go installed on your system. Follow these ste
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/grepclone.git
+   git clone https://github.com/thisdoraemon/grepclone.git
    
 2. Change to project directory:
    ```shell
